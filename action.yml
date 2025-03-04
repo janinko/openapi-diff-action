@@ -15,8 +15,8 @@ inputs:
     required: true
 
 outputs:
-  errors:
-    description: "A list of breaking, non breaking and unclassified differences found between the source and destination files."
+  diff-output:
+    description: "Ouput of the diff."
 
 runs:
   using: "docker"
